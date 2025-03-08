@@ -2,7 +2,8 @@ import { Container } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import { AiOutlineDownload } from "react-icons/ai";
 import Particle from "../../Particle";
-import pdf from "../../assets/MD_MAFUJUL_HASAN.pdf";
+// import pdf from "../../assets/MD_MAFUJUL_HASAN";
+import pdf from "../../assets/Piyush_Sharma_Resume.pdf";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import Zoom from "react-reveal/Zoom";
@@ -10,7 +11,8 @@ import React, { useState, useEffect } from "react";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/MD-MAFUJUL-HASAN/Personal-Portfolio/main/src/assets/MD_MAFUJUL_HASAN.pdf";
+"https://raw.githubusercontent.com/Piyush_Sharma_Resume/Personal-Portfolio/main/src/assets/Piyush_Sharma_Resume.pdf";
+  // "https://raw.githubusercontent.com/MD-MAFUJUL-HASAN/Personal-Portfolio/main/src/assets/MD_MAFUJUL_HASAN.pdf";
 
 function Resume() {
   const [width, setWidth] = useState(1200);

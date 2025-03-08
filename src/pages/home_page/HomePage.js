@@ -41,7 +41,7 @@ export default function Home() {
                 <ul className="homeaboutsociallinks">
                   <li className="socialicons">
                     <a
-                      href="https://github.com/MD-MAFUJUL-HASAN"
+                      href="https://github.com/pkboy2005/MyPortFolio"
                       target="_blank"
                       rel="noreferrer"
                       className="iconcolour  homesocialicons"
