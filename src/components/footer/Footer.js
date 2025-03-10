@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
-import { FaLinkedinIn, FaFacebookF, FaGoogle } from "react-icons/fa";
+import { FaLinkedinIn, FaGoogle } from "react-icons/fa";
 
 function Footer() {
   let date = new Date();
@@ -19,7 +19,7 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/MD-MAFUJUL-HASAN"
+                href="https://github.com/pkboy2005/MyPortFolio"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -29,7 +29,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/md-mafujul-hasan/"
+                href="https://www.linkedin.com/in/piyush-sharma-257548257/"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -39,7 +39,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/_md_mafujul_hasan_/"
+                href="https://www.instagram.com/impiyushsharma__/"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -49,17 +49,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.facebook.com/mh.tonmoy.13"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaFacebookF />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="mailto:mdtonmoy13.mt@gmail.com/"
+                href="mailto:Piyushsharma8632@gmail.com"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"

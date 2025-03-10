@@ -6,7 +6,7 @@ import Tilt from "react-parallax-tilt";
 import AboutmeContainer from "../../components/aboutme/aboutmeContainer";
 import Fade from "react-reveal/Fade";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
-import { FaLinkedinIn, FaFacebookF, FaGoogle } from "react-icons/fa";
+import { FaLinkedinIn, FaGoogle } from "react-icons/fa";
 import Certification from "../../components/certificate/Certification";
 import Projects from "../../components/projects/Projects";
 import Contactus from "../../components/contactus/Contactus";
@@ -41,7 +41,7 @@ export default function Home() {
                 <ul className="homeaboutsociallinks">
                   <li className="socialicons">
                     <a
-                      href="https://github.com/pkboy2005/MyPortFolio"
+                      href="https://github.com/pkboy2005/"
                       target="_blank"
                       rel="noreferrer"
                       className="iconcolour  homesocialicons"
@@ -51,7 +51,7 @@ export default function Home() {
                   </li>
                   <li className="socialicons">
                     <a
-                      href="https://www.linkedin.com/in/md-mafujul-hasan/"
+                      href="https://www.linkedin.com/in/piyush-sharma-257548257/"
                       target="_blank"
                       rel="noreferrer"
                       className="iconcolour  homesocialicons"
@@ -61,7 +61,7 @@ export default function Home() {
                   </li>
                   <li className="socialicons">
                     <a
-                      href="https://www.instagram.com/_md_mafujul_hasan_/"
+                      href="https://www.instagram.com/impiyushsharma__/"
                       target="_blank"
                       rel="noreferrer"
                       className="iconcolour homesocialicons"
@@ -71,17 +71,7 @@ export default function Home() {
                   </li>
                   <li className="socialicons">
                     <a
-                      href="https://www.facebook.com/mh.tonmoy.13"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="iconcolour homesocialicons"
-                    >
-                      <FaFacebookF />
-                    </a>
-                  </li>
-                  <li className="socialicons">
-                    <a
-                      href="mailto:mdtonmoy13.mt@gmail.com/"
+                      href="mailto:Piyushsharma8632@gmail.com"
                       target="_blank"
                       rel="noreferrer"
                       className="iconcolour homesocialicons"

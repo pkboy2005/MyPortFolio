@@ -36,13 +36,13 @@ export default function Projects() {
                 >
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      New Year CountDown
+                      Online Compiler & File Management
                     </h5>
                     <img src={nyc} alt={nyc} />
                     <div className="project--showcaseBtn">
                       <a
                         href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Web_Programming/tree/main/New-Year-Countdown"
+                          "https://github.com/pkboy2005/codecock"
                         }
                         target="_blank"
                         rel="noreferrer"
@@ -99,13 +99,13 @@ export default function Projects() {
                 >
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      Heart Disease Prediction
+                    AI NotePad & Calculator
                     </h5>
                     <img src={hd} alt={hd} />
                     <div className="project--showcaseBtn">
                       <a
                         href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Machine_Learning/tree/main/Heart%20Disease%20Prediction"
+                          "https://github.com/pkboy2005/AI-NotePad"
                         }
                         target="_blank"
                         rel="noreferrer"
@@ -161,7 +161,7 @@ export default function Projects() {
                 >
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      Online Payroll Management System
+                      Online Waste Management Using AI 
                     </h5>
                     <img src={ci} alt={ci} />
                     <div className="project--showcaseBtn">

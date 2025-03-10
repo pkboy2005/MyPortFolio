@@ -16,6 +16,8 @@ import {
   DiJavascript1,
   DiMysql,
   DiNodejs,
+  DiMongodb,
+  DiAws,
 } from "react-icons/di";
 import Flip from "react-reveal/Flip";
 
@@ -25,9 +27,6 @@ function TechnicalJourney() {
       <div>
         <Link className="btn btn-primary m-1" to="/educationjourney">
           Educational Journey
-        </Link>
-        <Link className="btn btn-primary m-1" to="/experiencejourney">
-          Experience Journey
         </Link>
         <Link className="btn btn-primary m-1" to="/technicaljourney">
           Technical Journey
@@ -142,6 +141,16 @@ function TechnicalJourney() {
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
           date=""
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          icon={<DiMongodb />}
+        >
+          <h3 className="vertical-timeline-element-title">MongoDB</h3>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
+          date=""
+          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<DiNodejs />}
         >
           <h3 className="vertical-timeline-element-title">NODE JS</h3>
@@ -155,6 +164,17 @@ function TechnicalJourney() {
           icon={<DiReact />}
         >
           <h3 className="vertical-timeline-element-title">REACT</h3>
+        </VerticalTimelineElement>
+        
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
+          date=""
+          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          icon={<DiAws />}
+        >
+          <h3 className="vertical-timeline-element-title">AWS Cloud</h3>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement

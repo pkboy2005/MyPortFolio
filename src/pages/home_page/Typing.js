@@ -10,10 +10,11 @@ function Typing() {
                     "Software Engineer",
                     "Frontend Developer",
                     "Backend Developer",
+                    "Cloud Engineer",
                 ],
                 autoStart: true,
                 loop: true,
-                deleteSpeed: 50,
+                deleteSpeed: 40,
             }}
         />
     );

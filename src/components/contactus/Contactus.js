@@ -118,24 +118,24 @@ export default function Contactus() {
                 <Col md={7}>
                   <div className="contacts-details">
                     <a
-                      href={`mailto:mdtonmoy13.mt@gmail.com`}
+                      href={`Piyushsharma8632@gmail.com`}
                       className="personal-details"
                     >
                       <div className="detailsIcon">
                         <FiAtSign />
                       </div>
                       <p style={{ color: "#fbd9ad" }}>
-                        mdtonmoy13.mt@gmail.com
+                      Piyushsharma8632@gmail.com
                       </p>
                     </a>
                     <a
-                      href={`tel:+880 1603-550521`}
+                      href={`tel:+91 7011250163`}
                       className="personal-details"
                     >
                       <div className="detailsIcon">
                         <FiPhone />
                       </div>
-                      <p style={{ color: "#fbd9ad" }}>+880 1603-550521</p>
+                      <p style={{ color: "#fbd9ad" }}>+91 7011250163</p>
                     </a>
                     <a
                       href="https://maps.app.goo.gl/iUHJvPAhJXwJayo68"
@@ -146,8 +146,8 @@ export default function Contactus() {
                           <HiOutlineLocationMarker />
                         </div>
                         <p style={{ color: "#fbd9ad" }}>
-                          BOF R/A, Gazipur Cantonment, BOF-1703, Dhaka,
-                          Bangladesh.
+                          Mahamedha Colony, SurajPur, Greater Noida, UttarPradesh,
+                          India.
                         </p>
                       </div>
                     </a>

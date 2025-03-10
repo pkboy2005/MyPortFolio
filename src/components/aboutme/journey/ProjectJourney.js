@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import StarIcon from "@mui/icons-material/Star";
 import JavascriptIcon from '@mui/icons-material/Javascript';
 import CssIcon from '@mui/icons-material/Css';
-import HtmlIcon from '@mui/icons-material/Html';
+// import HtmlIcon from '@mui/icons-material/Html';
 import CodeIcon from '@mui/icons-material/Code';
 import Flip from "react-reveal/Flip";
 
@@ -17,9 +17,6 @@ function ProjectJourney() {
       <div>
         <Link className="btn btn-primary m-1" to="/educationjourney">
           Educational Journey
-        </Link>
-        <Link className="btn btn-primary m-1" to="/experiencejourney">
-          Experience Journey
         </Link>
         <Link className="btn btn-primary m-1" to="/technicaljourney">
           Technical Journey
@@ -43,7 +40,7 @@ function ProjectJourney() {
           icon={<JavascriptIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Shoppy Ecommerce Website
+            Online Compiler & File Management
           </h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -55,7 +52,7 @@ function ProjectJourney() {
           icon={<JavascriptIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Amazing Meal System
+            AI NotePad & Calculator 
           </h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -67,7 +64,7 @@ function ProjectJourney() {
           icon={<JavascriptIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Academia Learning Website
+            Travel Website
           </h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -88,36 +85,13 @@ function ProjectJourney() {
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
           date=""
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<CssIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Online Payroll management System
-          </h3>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<HtmlIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            New Year CountDown
-          </h3>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<CodeIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Heart Disease Prediction
+            Waste Management Website Using AI
           </h3>
         </VerticalTimelineElement>
+        
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
@@ -127,57 +101,10 @@ function ProjectJourney() {
           icon={<CssIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Dual Mode Calendar
+            Live Weather App
           </h3>
         </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<CssIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Dual Mode Calculator
-          </h3>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<CssIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Digital Clock
-          </h3>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<JavascriptIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Age Calculator
-          </h3>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<CodeIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Student Information Management System
-          </h3>
-        </VerticalTimelineElement>
+        
         <VerticalTimelineElement
           iconStyle={{ background: "#fbd9ad", color: "rgb(78 22 112)" }}
           icon={<StarIcon />}

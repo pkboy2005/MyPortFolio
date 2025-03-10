@@ -9,12 +9,12 @@ import hd from "../../images/hd.png";
 import eco from "../../images/eco.png";
 import pp from "../../images/portfolio.png";
 import meal from "../../images/meal.png";
-import ac from "../../images/academic.png";
-import age from "../../images/age.png";
-import calculator from "../../images/calculator.png";
-import calendar from "../../images/calendar.png";
-import dc from "../../images/dc.png";
-import sims from "../../images/sims.png";
+// import ac from "../../images/academic.png";
+// import age from "../../images/age.png";
+// import calculator from "../../images/calculator.png";
+// import calendar from "../../images/calendar.png";
+// import dc from "../../images/dc.png";
+// import sims from "../../images/sims.png";
 import { FaCode } from "react-icons/fa";
 export default function ProjectPage() {
   return (
@@ -50,7 +50,7 @@ export default function ProjectPage() {
                             >
                               <div className="projectContent">
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                  New Year CountDown
+                                Online Compiler & File Management
                                 </h5>
                                 <img src={nyc} alt={nyc} />
                                 <div className="project--showcaseBtn">
@@ -114,7 +114,7 @@ export default function ProjectPage() {
                             >
                               <div className="projectContent">
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                  Heart Disease Prediction
+                                AI NotePad & Calculator
                                 </h5>
                                 <img src={hd} alt={hd} />
                                 <div className="project--showcaseBtn">
@@ -177,7 +177,7 @@ export default function ProjectPage() {
                             >
                               <div className="projectPageContent">
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                  Online Payroll Management System
+                                Waste Management Website Using AI
                                 </h5>
                                 <img src={ci} alt={ci} />
                                 <div className="project--showcaseBtn">
@@ -240,7 +240,7 @@ export default function ProjectPage() {
                             >
                               <div className="projectContent">
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                  Shoppy Ecommerce
+                                Live Weather App
                                 </h5>
                                 <img src={eco} alt={eco} />
                                 <div className="project--showcaseBtn">
@@ -364,7 +364,7 @@ export default function ProjectPage() {
                             >
                               <div className="projectContent">
                                 <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                                  Amazing Meal
+                                Travel Website
                                 </h5>
                                 <img src={meal} alt={meal} />
                                 <div className="project--showcaseBtn">
@@ -415,7 +415,7 @@ export default function ProjectPage() {
                             </div>
                           </Fade>
                         </Col>
-                        <Col md={3} className="col-sm-12 col-md-4">
+                        {/* <Col md={3} className="col-sm-12 col-md-4">
                           <Fade bottom>
                             <div
                               key={1}
@@ -777,7 +777,7 @@ export default function ProjectPage() {
                               </div>
                             </div>
                           </Fade>
-                        </Col>
+                        </Col> */}
                       </Row>
                     </Col>
                   </Row>
